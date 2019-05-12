@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.4.0",
+      "destination": "wwwroot/lib/jquery"
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/"
+    },
+    {
+      "library": "jquery-validate@1.19.0",
+      "destination": "wwwroot/lib/jquery-validate/"
+    },
+    {
+      "library": "bootswatch@3.3.7",
+      "destination": "wwwroot/lib/bootswatch/",
+      "files": [
+        "yeti/bootstrap.css",
+        "yeti/bootstrap.min.css"
+      ]
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font-awesome/"
+    }
+  ]
+}
